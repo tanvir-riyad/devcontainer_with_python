@@ -8,3 +8,10 @@ It is a configuration file specifically used by Visual Studio Code's 'DevContain
 
 # Dockerfile
 In the context of DevContainers, the Dockerfile is used to specify how the base development environment image should be customized. It includse instructions for installing additional packages, configuring system settings, or adding files to the image.
+
+
+The process to open the project in the devcontainer:
+    1. Install vscode and DevContainer extension
+    2. If the project has a .devconfiguration folder and devcontainer.json in it, vscode prompt you to "Reopen in Container" or press ctrl+shift+p.
+    3. vscode setup the process and may take few minutes
+    4.Once the setup is complete, Visual Studio Code will open a new instance of the editor inside the DevContainer.
