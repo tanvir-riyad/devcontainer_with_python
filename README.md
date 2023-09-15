@@ -11,7 +11,7 @@ In the context of DevContainers, the Dockerfile is used to specify how the base 
 
 
 The process to open the project in the devcontainer:
-    1. Install vscode and DevContainer extension
+    1. Install vscode and DevContainer extension /n
     2. If the project has a .devconfiguration folder and devcontainer.json in it, vscode prompt you to "Reopen in Container" or press ctrl+shift+p.
     3. vscode setup the process and may take few minutes
     4.Once the setup is complete, Visual Studio Code will open a new instance of the editor inside the DevContainer.
