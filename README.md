@@ -17,3 +17,5 @@ The process to open the project in the devcontainer:
     4. Once the setup is complete, Visual Studio Code will open a new instance of the editor inside the DevContainer.
 
 The provided devcontainer.json configuration instructs Visual Studio Code's devcontainers extension to create a development container, which, in turn, will create a Docker container with Ubuntu installed as the operating system. Inside this Docker container, the specified packages and settings will be installed, allowing us to develop our project within this isolated development environment. This approach ensures consistency and reproducibility across different development environments and makes it easier to manage project dependencies.
+
+When we use the "devcontainers" extension in VS Code and open a project that contains these files, it will automatically detect the devcontainer.json, open the container, and offer the option to develop inside the defined container environment.
