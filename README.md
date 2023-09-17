@@ -15,3 +15,5 @@ The process to open the project in the devcontainer:
     2. If the project has a .devconfiguration folder and devcontainer.json in it, vscode prompt you to "Reopen in Container" or press ctrl+shift+p.   
     3. vscode setup the process and may take few minutes   
     4.Once the setup is complete, Visual Studio Code will open a new instance of the editor inside the DevContainer.
+
+The devcontainer.json configuration you provided instructs Visual Studio Code's Remote - Containers extension to create a development container, which, in turn, will create a Docker container with Ubuntu installed as the operating system. Inside this Docker container, the specified packages and settings will be installed, allowing you to develop your project within this isolated development environment. This approach ensures consistency and reproducibility across different development environments and makes it easier to manage project dependencies.
